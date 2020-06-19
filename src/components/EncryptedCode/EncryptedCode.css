@@ -1,0 +1,36 @@
+.encryption-code {
+    width: 470px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.encryption-code input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+
+.wrapper-sentence{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.wrapper-sentence div {
+    width: 15px;
+}
+
+.input-letter {
+    width: 13px;
+}
+
+.encrypted-code-panel {
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    transition: all 1s ease;
+}

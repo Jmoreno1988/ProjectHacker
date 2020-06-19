@@ -1,0 +1,71 @@
+.terminal {
+    width: 100%;
+    height: 100%;
+    background-color: #1d1e22ff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 6px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.terminal-list {
+    padding: 10px;
+}
+
+.terminal-input > input {
+    background-color: #1d1e22ff;
+    outline: none;
+    border-width:0px;
+    border:none;
+    color: white;
+    padding: 10px;
+    width: 80%;
+}
+
+.terminal-toolbar-window {
+    width: 100%;
+    height: 24px;
+    background: linear-gradient(0deg, #d8d8d8, #ececec);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.terminal-toolbar-window-button {
+    width: 13px;
+    height: 13px;
+    margin: 0 8px 0 8px;
+    border-radius: 50%;
+}
+
+.terminal-toolbar-title {
+    margin-left: auto;
+    padding-right: 15px;
+    font-size: 90%;
+    color: black;
+}
+
+.terminal-toolbar-wrapper-list-input {
+    overflow-y: auto;
+}
+
+.red {
+    background-color: #ff6159;
+    border: 1px solid #ff0d00;
+}
+
+.yellow {
+    background-color: #ffbf2f;
+    border: 1px solid #ffb100;
+}
+
+.green {
+    background-color: #25cc3e;
+    border: 1px solid #00bd1c;
+}

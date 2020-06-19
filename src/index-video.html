@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            overflow-y: hidden;;
+        }
+
+        video {
+            min-width: 100%;
+            min-height: 100vh;
+            z-index: 1;
+        }
+
+        .overlay {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            background-image: linear-gradient(45deg, rgba(0, 0, 0, .3) 50%, rgba(0, 0, 0, .7) 50%);
+            background-size: 3px 3px;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: 3;
+            max-width: 400px;
+            width: 100%;
+            height: 50px;
+        }
+
+        button {
+            cursor: pointer;
+            padding: 0.5rem;
+            border: 1px solid transparent;
+            border-radius: 0.25rem;
+            color: #fefefe;
+            background-color: #e55;
+            font-weight: 600;
+            transition: .2s ease;
+            width: 160px;
+        }
+
+        .title {
+            font-family: "Raleway", sans-serif;
+            width: 600px;
+            color: #fff;
+            text-align: center;
+            font-size: 3em;
+            line-height: .9;
+            font-weight: 900;
+            letter-spacing: -.025em;
+            text-transform: uppercase;
+            margin-bottom: .5em;
+        }
+
+        p {
+            font-family: "Raleway", sans-serif;
+            font-size: 1.5em;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="./video/videoInicial.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay">
+            <div class="title">Titulo ScapeRoom Virtual</div>
+
+            <p>Breve descripción...</p>
+            <button>JUGAR!</button>
+    </div>
+
+
+
+</body>
